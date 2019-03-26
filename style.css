@@ -1,0 +1,561 @@
+body{
+    background-image: url(images/fon1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+.blok1{
+    width: 680px;
+    height: 300px;
+    background-image: url(images/6.jpg); 
+    border-radius: 30px; 
+    padding: top;   
+margin-left: auto;
+margin-right: auto;
+border-color: rgb(35, 134, 26);
+border-image: 10px;
+border-style: dashed;
+text-align: center;
+transition: 10s all;
+}
+.nazvablok1{
+ color: rgba(224, 40, 147, 0.918);
+ padding: top;
+ text-align: center;
+ margin-top:180px;
+ font-size:100px;
+}
+.emblema1{
+    width: 280px;
+    height: 280px;
+    background-image: url(img/emblema.jpg); 
+    border-radius: 140px; 
+    padding: top;   
+
+border-color: rgb(21, 32, 136);
+border-image: 10px;
+border-style: dashed; 
+position: absolute; /* Абсолютное позиционирование */
+top: 5px; /* Положение от верхнего края */
+left: 5px; /* Положение от левого края */
+line-height: 1px;
+}
+
+.menu-ul li{
+    display: inline-block;
+    padding: 15px;
+    border: 5px;
+    border-color: blue;
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 160%; /* Размер шрифта в процентах */ 
+}
+.body_page1{
+    background-image: url(images/fon7.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;     
+}
+.body_page2{
+    background-image: url(images/fon4.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;     
+}
+.body_page3{
+    background-image: url(images/fon5.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;     
+}
+.nazva1{
+    color: rgb(24, 9, 92);
+    padding: top;
+    text-align: center;
+}
+.fotoclass{
+    width: 800px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-color: rgb(29, 29, 212);
+    border: 5px solid red;
+    border-image: 10px;
+    border-radius: 50px;   
+}
+.fotoclass3{
+    width: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-color: rgb(29, 29, 212);
+    border: 5px solid red;
+    border-image: 10px;
+    border-radius: 50px;   
+}
+.fotoclass1{
+    width: 600px;
+    margin-left: 200px;
+    margin-right: 100px;
+    border-color: rgb(29, 29, 212);
+    border: 5px solid blue;
+    border-image: 10px;
+    border-radius: 50px;   
+}
+.fotoclass4{
+    width: 700px;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 300px;
+    border-color: rgb(29, 29, 212);
+    border: 5px solid blue;
+    border-image: 10px;
+    border-radius: 50px;   
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.figura {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 15px; /* Положение от верхнего края */
+    right: 15px; /* Положение от правого края */
+    line-height: 1px;
+}
+.nadpis {
+    position: absolute; 
+    top: 130px; 
+    right: 15px; 
+    line-height: 1px;
+    color: darkblue;
+}
+.nadpis1 {
+    position: absolute; 
+    top: 145px; 
+    right: 15px; 
+    line-height: 1px;
+    color: darkblue;
+}
+.contakt {
+    position: absolute; 
+    top: 100px; 
+    right: 150px; 
+    line-height: 1px;
+    color: darkblue;
+    color: rgb(24, 9, 92);
+    padding: top;
+    text-align: center;
+}
+.contakt1 {
+    position: absolute; 
+    top: 140px; 
+    right: 150px; 
+    line-height: 1px;
+    
+    color: rgb(24, 9, 92);
+    padding: top;
+    text-align: center;
+}
+
+nav {
+    display: block;
+    width: 660px;
+    margin: 0 auto 30px;
+    margin-top: -880px;
+    
+  }
+  .all{
+    width: 700px;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 50px;
+    border-color: rgb(29, 29, 212);
+    
+  }
+  .one ul {
+    padding: 1em 0;
+    background: #ECDAD6;
+  
+  
+  }
+  .one a {
+    padding: 1em;
+    background: #6A93D4;
+  
+  
+    color: #695753;
+  }
+  .one a:hover {background: #b19891;}
+  .one li {
+    display: inline;
+  
+  }
+  
+ 
+  .podblock1{
+  
+  width: 330px;
+  height: 50px;
+  margin-left: 30px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: -1200px;
+  
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  
+  .podblock2{
+  width: 330px;
+  height: 50px;
+  margin-left: 30px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  .podblock3{
+  width: 330px;
+  height: 50px;
+  margin-left: 30px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  
+  .podblock4{
+  width: 330px;
+  height: 50px;
+  margin-left: 30px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  .podblock5{
+  width: 330px;
+  height: 50px;
+  margin-left: 30px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+     
+  .block2{
+  
+  background-color: #6A93D4;
+  width: 400px;
+  height: 1500px;
+  margin-top:-930px;
+  margin-left: 1486px;
+  }
+    .podblock6{
+  
+  width: 330px;
+  height: 50px;
+  margin-left: 1530px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: -1200px;
+  
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  
+  .podblock7{
+  width: 330px;
+  height: 50px;
+  margin-left: 1530px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  .podblock8{
+  width: 330px;
+  height: 50px;
+  margin-left: 1530px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  
+  .podblock9{
+  width: 330px;
+  height: 50px;
+  margin-left: 1530px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  .podblock10{
+  width: 330px;
+  height: 50px;
+  margin-left: 1530px;
+  background-color:#FFCE73; 
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  }
+  
+   .two {
+    background: #E4E5D2;
+    padding: 50px 20px;
+    text-align: center;
+  } 
+  .two h1 {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    color: #5C2610;
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 1;
+    padding: 10px 0;
+    margin: 0;
+    display: inline-block;
+  }
+  .two h1:before {
+    content: ""; 
+    position: absolute;
+  
+    
+    border-radius: 10%/30%;
+    border: 6px solid #5C2610;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  
+  #slider { /*положение слайдера*/
+      position: relative;
+      text-align: center;
+      top: 10px;
+  }
+  
+  #slider{ 
+      margin: 0 auto;
+  }
+  
+  #slides article{
+      width: 20%;
+      float: left;
+  }
+  
+  #slides .image{ 
+      width: 500%;
+      line-height: 0;
+  }
+  
+  #overflow{ 
+      width: 100%;
+      overflow: hidden;
+  }
+  
+  article img{ 
+      width: 100%;
+  }
+  
+  #desktop:checked ~ #slider{ 
+      max-width: 960px; 
+  }
+  
+  
+  #switch1:checked ~ #controls label:nth-child(5), 
+  #switch2:checked ~ #controls label:nth-child(1),
+  #switch3:checked ~ #controls label:nth-child(2),
+  #switch4:checked ~ #controls label:nth-child(3),
+  #switch5:checked ~ #controls label:nth-child(4){
+      background: url('prev.png') no-repeat; 
+      float: left;
+      margin: 0 0 0 -84px; 
+      display: block;
+      height: 68px;
+      width: 68px;
+  }
+  
+  
+  #switch1:checked ~ #controls label:nth-child(2), 
+  #switch2:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(4),
+  #switch4:checked ~ #controls label:nth-child(5),
+  #switch5:checked ~ #controls label:nth-child(1){
+      background: url('next.png') no-repeat; 
+      float: right;
+      margin: 0 -84px 0 0; 
+      display: block;
+      height: 68px;
+      width: 68px;
+  }
+  
+  label, a{ 
+      cursor: pointer;
+  }
+  
+  .all input{
+      display: none;
+  }
+  
+  
+  #switch1:checked ~ #slides .image{
+      margin-left: 0;
+  }
+  
+  #switch2:checked ~ #slides .image{
+      margin-left: -100%;
+  }
+  
+  #switch3:checked ~ #slides .image{
+      margin-left: -200%;
+  }
+  
+  #switch4:checked ~ #slides .image{
+      margin-left: -300%;
+  }
+  
+  #switch5:checked ~ #slides .image{
+      margin-left: -400%;
+  }
+  
+  #controls{ 
+      margin: -25% 0 0 0;
+      width: 100%;
+      height: 50px;
+  }
+  
+  #active label{ 
+      border-radius: 10px;
+      display: inline-block; 
+      width: 15px;
+      height: 15px;
+      background: #bbb;
+  }
+  
+  #active{ 
+      margin: 23% 0 0;
+      text-align: center;
+  }
+  
+  #active label:hover{ 
+      background: #76c8ff;
+      border-color: #777 !important; 
+  }
+  
+  
+  #switch1:checked ~ #active label:nth-child(1),
+  #switch2:checked ~ #active label:nth-child(2),
+  #switch3:checked ~ #active label:nth-child(3),
+  #switch4:checked ~ #active label:nth-child(4),
+  #switch5:checked ~ #active label:nth-child(5){
+      background: #18a3dd;
+      border-color: #18a3dd !important;
+  }
+  
+  #slides .image{ 
+      transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  }
+  
+  #controls label:hover{ 
+      opacity: 0.6;
+  }
+  
+  #controls label{ 
+      transition: opacity 0.2s ease-out;
+  }
+  
+  .tr{
+      width: 100%;
+      height: 100px;
+      background-color: #FFB773;
+  font-size: 60PX;
+  text-align: center;
+  font-family: Courier new;
+  margin-top: -15px;
+  
+  }
+  
+  .zaporj1{
+  
+  margin-left:0px;
+  
+  }
+  .zaporj2{
+  
+  margin-left:1300px;
+  margin-top: -455px;
+  
+  
+  }
+  .zaporj3{
+  
+  margin-left:650px;
+  margin-top: 10px;
+  
+  
+  }.zaporj4{
+  
+  margin-left:0px;
+  
+  }
+  .zaporj5{
+  
+  margin-left:1300px;
+  margin-top: -455px;
+  
+  
+  }
+  .zaporj6{
+  
+  margin-left:650px;
+  margin-top: 10px;
+  
+  
+  }
+  .textz{
+  
+      background-color: #FFB773;
+  font-size: 40PX;
+  text-align: center;
+  font-family: Courier new;
+  margin-top: -15px;
+  margin-top: 40px;
+  
+  
+  }
+  .sc1{
+  
+  
+  margin-left:50px;
+  margin-top: -660px;
+  
+  }
+  .sc2{
+  
+  margin-left:740px;
+  margin-top: -800px;
+  
+  }
+  .sc3{
+  margin-left:1440px;
+  margin-top:250px;
+  
+  }
