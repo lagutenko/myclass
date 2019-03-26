@@ -40,7 +40,36 @@ top: 5px; /* Положение от верхнего края */
 left: 5px; /* Положение от левого края */
 line-height: 1px;
 }
-
+.div1 {
+    padding-top: 20px;
+    width: 250px;
+    height: 1000px;
+    display: inline-block;
+    font-size: 15px;
+}
+.div2{
+    padding-top: 20px;
+    width: 900px;
+    height: 1000px;
+    display: inline-block;
+    font-size: 15px;
+}
+.all{
+    width: 700px;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 140px;
+    border-color: rgb(29, 29, 212);
+    display: inline-block;
+ 
+}
+.div3 {
+    padding-top: 20px;
+    width: 150px;
+    height: 1000px;
+    display: inline-block;
+    font-size: 15px;
+}
 .menu-ul li{
     display: inline-block;
     padding: 15px;
@@ -162,13 +191,7 @@ nav {
     margin-top: -880px;
     
   }
-  .all{
-    width: 700px;
-    margin-left: 300px;
-    margin-right: 200px;
-    margin-top: 50px;
-    border-color: rgb(29, 29, 212);
-    
+  
   }
   .one ul {
     padding: 1em 0;
@@ -187,162 +210,6 @@ nav {
   .one li {
     display: inline;
   
-  }
-  
- 
-  .podblock1{
-  
-  width: 330px;
-  height: 50px;
-  margin-left: 30px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: -1200px;
-  
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  
-  .podblock2{
-  width: 330px;
-  height: 50px;
-  margin-left: 30px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  .podblock3{
-  width: 330px;
-  height: 50px;
-  margin-left: 30px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  
-  .podblock4{
-  width: 330px;
-  height: 50px;
-  margin-left: 30px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  .podblock5{
-  width: 330px;
-  height: 50px;
-  margin-left: 30px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-     
-  .block2{
-  
-  background-color: #6A93D4;
-  width: 400px;
-  height: 1500px;
-  margin-top:-930px;
-  margin-left: 1486px;
-  }
-    .podblock6{
-  
-  width: 330px;
-  height: 50px;
-  margin-left: 1530px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: -1200px;
-  
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  
-  .podblock7{
-  width: 330px;
-  height: 50px;
-  margin-left: 1530px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  .podblock8{
-  width: 330px;
-  height: 50px;
-  margin-left: 1530px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  
-  .podblock9{
-  width: 330px;
-  height: 50px;
-  margin-left: 1530px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  .podblock10{
-  width: 330px;
-  height: 50px;
-  margin-left: 1530px;
-  background-color:#FFCE73; 
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 45px;
-  color: blue;
-  }
-  
-   .two {
-    background: #E4E5D2;
-    padding: 50px 20px;
-    text-align: center;
-  } 
-  .two h1 {
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-    color: #5C2610;
-    font-size: 3em;
-    font-weight: normal;
-    line-height: 1;
-    padding: 10px 0;
-    margin: 0;
-    display: inline-block;
-  }
-  .two h1:before {
-    content: ""; 
-    position: absolute;
-  
-    
-    border-radius: 10%/30%;
-    border: 6px solid #5C2610;
-    border-left-color: transparent;
-    border-right-color: transparent;
   }
   
   
@@ -473,89 +340,62 @@ nav {
   #slides .image{ 
       transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
   }
-  
-  #controls label:hover{ 
-      opacity: 0.6;
-  }
-  
-  #controls label{ 
-      transition: opacity 0.2s ease-out;
-  }
-  
-  .tr{
-      width: 100%;
-      height: 100px;
-      background-color: #FFB773;
-  font-size: 60PX;
-  text-align: center;
-  font-family: Courier new;
-  margin-top: -15px;
-  
-  }
-  
-  .zaporj1{
-  
-  margin-left:0px;
-  
-  }
-  .zaporj2{
-  
-  margin-left:1300px;
-  margin-top: -455px;
-  
-  
-  }
-  .zaporj3{
-  
-  margin-left:650px;
-  margin-top: 10px;
-  
-  
-  }.zaporj4{
-  
-  margin-left:0px;
-  
-  }
-  .zaporj5{
-  
-  margin-left:1300px;
-  margin-top: -455px;
-  
-  
-  }
-  .zaporj6{
-  
-  margin-left:650px;
-  margin-top: 10px;
-  
-  
-  }
-  .textz{
-  
-      background-color: #FFB773;
-  font-size: 40PX;
-  text-align: center;
-  font-family: Courier new;
-  margin-top: -15px;
-  margin-top: 40px;
-  
-  
-  }
-  .sc1{
-  
-  
-  margin-left:50px;
-  margin-top: -660px;
-  
-  }
-  .sc2{
-  
-  margin-left:740px;
-  margin-top: -800px;
-  
-  }
-  .sc3{
-  margin-left:1440px;
-  margin-top:250px;
-  
-  }
+  #menu {
+    padding: 0;
+    margin: 0;
+    font-family:  Verdana;
+    }
+#menu li {
+    list-style: none;
+    float: left;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    background:  #95DF8E;
+    position: relative;
+    padding-top: 12px;
+    }
+#menu li ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 42px;
+    }
+#menu li ul li{
+    float: none;
+    height: 30px;
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    background: rgb(58, 243, 41);
+    }
+#menu li a{
+    display: block;
+    width: 200px;
+    height: 30px;
+    color:    rgb(35, 10, 177);
+    text-decoration: none;
+    }
+
+#menu li:hover ul{
+      display: block;
+      }
+#menu li:hover{
+      background: rgb(180, 197, 102);
+      }
+#menu li ul li ul{
+left:200px;
+top: 0;
+}
+#menu>li>ul>li>ul{
+    left:200px;
+    top: 0;
+    }
+#menu li ul li ul li{display: none;}
+#menu li ul li:hover ul li{display: block;} 
